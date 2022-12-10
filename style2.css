@@ -1,0 +1,305 @@
+:root {
+	--genwidth: 850px ;
+	--navwidth: 175px ;
+	--fg: #ddd ;
+	--altfg: #ccc ;
+	--fgemph: white ;
+	--bg: #111 ;
+	--altbg: #222 ;
+	--emph: #333 ;
+	--bordercolor: #555 ;
+	--limish: #0e0 ;
+	--bg: rgba(0,0,0,0.4) ;
+	--altbg: rgba(0,0,0,0.4) ;
+}
+
+html {
+	text-align: center;
+	font-family: 'Invention';
+	src: url("./fonts/Invention.woff2") format("woff2"); /* Modern Browsers */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-smoothing: antialiased;
+	font-smooth: always;
+	/* height: 100%; */
+	/* background: -moz-linear-gradient(45deg, #223fa1, #727e8a, #439fd9); */
+	/* background: -webkit-linear-gradient(45deg, #223fa1, #727e8a, #439fd9); */
+	/* background: linear-gradient(45deg, #223fa1, randomColor, #439fd9); */
+	/* background-image: -moz-linear-gradient(45deg, #223fa1, #727e8a, #439fd9); */
+	font-size: 17px;
+	background-color: #24283b;
+}
+
+@font-face {
+	font-family: "Invention";
+	font-style: normal;
+	src: url("./fonts/Invention.woff2") format("woff2"); /* Modern Browsers */
+  }
+
+@font-face {
+font-family: "IndustryTGBold";
+font-style: normal;
+src: url("./fonts/IndustryTGBold.woff2") format("woff2"); /* Modern Browsers */
+}
+
+#main {
+	max-width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+	 background: rgba(31, 35, 53, 0.99);
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 2px;
+	box-shadow: 0px 0px 20px 6px rgba(255, 0, 132, 0.90);
+	-webkit-box-shadow: 0px 0px 15px 10px rgba(154, 126, 204, 0.50);
+	-moz-box-shadow: 0px 0px 20px 6px rgba(255, 0, 132, 0.90);
+	color: #9a7ecc;
+	/* color: #000000; */
+	border-radius: 7px;
+	margin-top: 1.5em!important;
+	border: solid 1px;
+}
+
+nav {
+	margin-left: auto;
+	margin-right: auto;
+	/* background: rgba(35, 38, 48, 0.70); */
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	box-shadow: 0px 0px 20px 6px rgba(255, 0, 132, 0.90);
+	-webkit-box-shadow: 0px 0px 15px 10px rgba(122, 162, 247, 0.50);
+	-moz-box-shadow: 0px 0px 20px 6px rgba(255, 0, 132, 0.90);
+	color: #7AA2F7;
+	/* color: #000000; */
+	border-radius: 7px;
+	margin-top: 1.5em!important;
+	border: solid 1px;
+}
+
+#main2 {
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em!important;
+}
+
+a {
+    color: #7AA2F7;
+    text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover li {
+    color: #89ddff;
+	transition: all ease 0.1s;
+	transition-delay: 0.1s;
+	border-bottom: 1px dotted #89ddff;
+}
+
+a:hover {
+    color: #89ddff;
+	transition: all ease 0.1s;
+	transition-delay: 0.1s;
+	border-bottom: 1px dotted #89ddff;
+}
+
+a:active {
+	color: #e8008b;
+}
+
+h1 {
+	font-size: 28pt;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'IndustryTGBold';
+	font-style: normal;
+	font-size: 2.0em;
+	vertical-align: top;
+	margin-top: 0.25em;
+	color: #E0AF68;
+	font-weight: 800;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+h3 {
+	font-family: 'IndustryTGBold';
+	font-size: 16px;
+	font-style: normal;
+	color: #F7768E;
+	font-weight: 800;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+span {
+	color: #c0caf5;
+	max-width: 60%;
+	text-align: left;
+	text-shadow: 1px 1px 3px #000000;
+}
+
+span1 {
+	color: #000000;
+	line-height: 28px;
+	text-align: left;
+	max-width: 60%;
+}
+
+.linehr {
+	border-radius: 5px;
+	border: solid 1px;
+	border-color: #000000;
+	background-color: #ba3c97;
+	height: 1px;
+}
+
+dot {
+	color: #ba3c97;;
+	font-size: 32px;
+}
+
+inventiontitle {
+	font-weight: 300;
+	font-size: 38px;
+}
+
+code {
+	font-family: 'Invention';
+	font-style: normal;
+	font-weight: 800;
+	color: #9ECE6A;
+	overflow-x: auto;
+	font-size: 16px;
+}
+
+pipe {
+	color:  #E0AF68;
+	font-size: 18px;
+}
+
+dracula {
+	color: #6272A4;
+}
+
+category {
+	font-family: 'Invention';
+	font-size: 16px;
+	font-style: normal;
+	color:  #F7768E;
+	font-weight: 400;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+#button {
+	cursor: pointer;
+	background-color: rgba(220,220,255,0.5);
+	border-radius: 5px;
+	transition: all ease-in-out 0.3s;
+	margin-top: 2rem;
+	width: 204px;
+	padding: 5px;
+	font-family: 'Invention', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	border: solid 1px;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 9px 6px rgba(0, 10, 40, 0.60);
+	-webkit-box-shadow: 0px 0px 9px 6px rgba(0, 10, 40, 0.60);
+	-moz-box-shadow: 0px 0px 9px 6px rgba(0, 10, 40, 0.60);
+}
+
+#button:hover {
+  background-color: rgba(220,220,235,0.9);
+  transition: all ease-in-out 0.2s;
+}
+
+/* ------------------------------------------------------------- */
+/* --------------------------(.)Y(.)---------------------------- */
+/* ------------------------------------------------------------- */
+
+#menu {
+	cursor: pointer;
+	background-color: rgba(220,220,255,0.41);
+	border-radius: 20px;
+	transition: all ease-in-out 0.3s;
+	margin-top: 2rem;
+	width: 100%;
+	padding: 8px;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	border: solid 1px;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu:hover {
+  background-color: rgba(220,220,235,0.9);
+  transition: all ease 0.3s;
+}
+
+@media (min-width: 1200px) {
+	nav {
+		float: left ;
+		width: 200px ;
+		box-sizing: border-box ;
+		position: fixed ;
+		text-align: left ;
+		top: 0 ;
+		left: 3em ;
+		font-size: large ;
+	}
+	nav::before {
+		font-family: 'IndustryTGBold' ;
+		font-size: 20px ;
+		content: "Navigation" ;
+		text-shadow: 2px 2px 4px #000000;
+		text-align: center ;
+		display: block ;
+		font-weight: 800 ;
+		color: #E0AF68 ;
+		margin-top: 0.5em ;
+	}
+	nav li {
+		display: block ;
+		text-align: center ;
+		font-size: 16px;
+		margin: .5em auto ;
+	}
+
+}
+
+@media (min-width: 55em) {
+
+	.resright, .disappear {
+		display: block ;
+		float: right;
+		padding: 20px ;
+		clear: both ;
+		max-height: 300px ;
+		max-width: 300px ;
+	}
+
+	.resmid {
+		max-height: 300px ;
+		max-width: 300px ;
+	}
+
+	main {
+		max-width: var(--genwidth) ;
+	}
+
+	.column {
+		float: left;
+		width: 50% ;
+	}
+
+}

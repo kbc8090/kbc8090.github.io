@@ -1,0 +1,193 @@
+html {
+	text-align: center;
+	font-family: 'Invention';
+	src: url("./fonts/Invention.woff2") format("woff2"); /* Modern Browsers */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-smoothing: antialiased;
+	font-smooth: always;
+	/* height: 100%; */
+	/* background: -moz-linear-gradient(45deg, #223fa1, #727e8a, #439fd9); */
+	/* background: -webkit-linear-gradient(45deg, #223fa1, #727e8a, #439fd9); */
+	/* background: linear-gradient(45deg, #223fa1, randomColor, #439fd9); */
+	/* background-image: -moz-linear-gradient(45deg, #223fa1, #727e8a, #439fd9); */
+	background-size: cover;
+	background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	font-size: 16px;
+}
+
+@font-face {
+  font-family: "Invention";
+  font-style: normal;
+  src: url("./fonts/Invention.woff2") format("woff2"); /* Modern Browsers */
+}
+
+#main {
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(35, 38, 48, 0.70);
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 2px;
+	box-shadow: 0px 0px 20px 6px rgba(0, 10, 40, 0.90);
+	-webkit-box-shadow: 0px 0px 20px 6px rgba(0, 10, 40, 0.90);
+	-moz-box-shadow: 0px 0px 20px 6px rgba(0, 10, 40, 0.90);
+	color: #00b2ff;
+	/* color: #000000; */
+	border-radius: 7px;
+	margin-top: 2em!important;
+	border: solid 1px;
+}
+
+#main2 {
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em!important;
+}
+
+a {
+    color: #0e9fff;
+    text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+    color: #85ffff;
+	transition: all ease 0.1s;
+	transition-delay: 0.1s;
+	border-bottom: 1px dotted #85ffff;
+}
+
+a:active {
+	color: #e8008b;
+}
+
+h1 {
+	font-size: 28pt;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Invention';
+	font-style: normal;
+	font-size: 1.8em;
+	color: orange;
+	font-weight: 800;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+h3 {
+	font-family: 'Invention';
+	font-size: 20px;
+	font-style: normal;
+	color: #e8008b;
+	font-weight: normal;
+	font-style: normal;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+span {
+	color: #ecf0ff;
+	max-width: 60%;
+	text-align: left;
+	text-shadow: 1px 1px 3px #000000;
+}
+
+span1 {
+	color: #000000;
+	line-height: 28px;
+	text-align: left;
+	max-width: 60%;
+}
+
+.linehr {
+	border-radius: 5px;
+	border: solid 1px;
+	border-color: #000000;
+	height: 1px;
+}
+
+dot {
+	color: #00b2ff;
+}
+
+inventiontitle {
+	font-weight: 300;
+	font-size: 38px;
+}
+
+code {
+	font-family: 'Invention';
+	font-style: normal;
+	font-weight: 800;
+	color: #45ffa8;
+	overflow-x: auto;
+	font-size: 16px;
+}
+
+pipe {
+	color: orange;
+	font-size: 18px;
+}
+
+dracula {
+	color: #6272A4;
+}
+
+#button {
+	cursor: pointer;
+	background-color: rgba(220,220,255,0.5);
+	border-radius: 5px;
+	transition: all ease-in-out 0.3s;
+	margin-top: 2rem;
+	width: 204px;
+	padding: 5px;
+	font-family: 'Invention', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	border: solid 1px;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 9px 6px rgba(0, 10, 40, 0.60);
+	-webkit-box-shadow: 0px 0px 9px 6px rgba(0, 10, 40, 0.60);
+	-moz-box-shadow: 0px 0px 9px 6px rgba(0, 10, 40, 0.60);
+}
+
+#button:hover {
+  background-color: rgba(220,220,235,0.9);
+  transition: all ease-in-out 0.2s;
+}
+
+/* ------------------------------------------------------------- */
+/* --------------------------(.)Y(.)---------------------------- */
+/* ------------------------------------------------------------- */
+
+#menu {
+	cursor: pointer;
+	background-color: rgba(220,220,255,0.41);
+	border-radius: 20px;
+	transition: all ease-in-out 0.3s;
+	margin-top: 2rem;
+	width: 100%;
+	padding: 8px;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	border: solid 1px;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu:hover {
+  background-color: rgba(220,220,235,0.9);
+  transition: all ease 0.3s;
+}

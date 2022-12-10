@@ -1,0 +1,53 @@
+-------------- KDE PLASMA ------------------
+
+sudo pacman -Syy xorg xorg-server xorg-xinit xorg-drivers virtualbox-guest-utils plasma-meta sddm sddm-kcm konsole kwalletmanager firefox ffmpegthumbnailer ffmpegthumbs thunar packagekit-qt5 vlc hexchat base-devel git wget yajl discover dolphin plank ttf-ubuntu-font-family bleachbit kvantum-qt5 samba discord ark gwenview htop neofetch gvfs gvfs-smb ttf-hack
+
+sudo systemctl enable sddm.service
+
+copy bash.rc from smb://192.168.1.102/G/obs
+
+copy close.svg and tasks.svgz into Arc-Dark theme
+
+$ git clone https://aur.archlinux.org/yay.git
+$ cd yay
+$ makepkg -si
+
+yay -Syy pamac-aur
+
+AUR packages: audacious, audacious-plugins, spotify, spotify-adblock-linux, st-git
+
+curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
+
+-------------- FIREFOX TO-DO's --------------------
+standard tracking protection, use ublock/privacy possum/decentraleyes instead
+browser.urlbar.oneOffSearches -- false
+reader.parse-on-load.enabled -- false
+extensions.pocket.enabled -- false
+dns over https (cloudflare)
+disable all the suggestions/smooth scrolling bottom of general page
+toolkit.telemetry.coverage.opt-out -- true
+geo.enabled -- false
+
+
+-------------- XFCE ---------------
+
+sudo pacman -Syy xorg xorg-server xorg-init xorg-drivers lightdm lightdm-gtk-greeter xfce4 xfce4-goodies firefox ffmpegthumbnailer ffmpegthumbs thunar tumbler vlc hexchat base-devel git wget yajl ttf-ubuntu-font-family bleachbit samba discord ttf-hack arc-gtk-theme htop neofetch gvfs gvfs-smb viewnior qt5base qt5ct qt5-styleplugins kvantum-qt5 kvantum-theme-arc
+
+sudo nano /etc/environment -> QT_QPA_PLATFORMTHEME=qt5ct
+
+edit /etc/lightdm.conf to autologin with user, delay=0 and interface = xfce
+
+# groupadd -r autologin
+# gpasswd -a username autologin
+
+sudo systemctl enable lightdm.service
+
+copy bash.rc from smb://192.168.1.102/G/obs
+
+download mugshot from the AUR
+
+---------------- PACMAN COMMANDS ----------------
+sudo pacman -Rns (uninstall everything related)
+sudo pacman -Sc (clean cached packages)
+yay -Sc
+conf file: Color, ILoveCandy,VerbosePackageList
